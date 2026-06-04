@@ -1,0 +1,10 @@
+pymupdf
+fastapi
+uvicorn
+requests
+beautifulsoup4
+scikit-learn
+plotly
+pytest
+rapidocr-onnxruntime
+supabase
