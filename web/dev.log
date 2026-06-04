@@ -1,0 +1,43 @@
+
+> rgpv-exam-insights-web@0.1.0 dev
+> next dev --turbopack
+
+[32m✔[0m [33mConsole Ninja[0m extension is connected to [33mNext.js[0m, see [36mhttps://tinyurl.com/2vt8jxzw[0m
+⚠ Port 3000 is in use by an unknown process, using available port 3004 instead.
+▲ Next.js 16.2.6 (Turbopack)
+- Local:         http://localhost:3004
+- Network:       http://192.168.0.102:3004
+- Environments: .env.local
+✓ Ready in 5.4s
+⚠ Slow filesystem detected. The benchmark took 429ms. If D:\job\apoliums\patel_workshop\web\.next/dev is a network drive, consider moving it to a local folder.
+See more: https://nextjs.org/docs/app/guides/local-development
+
+ GET /api/health 200 in 3.9s (next.js: 3.0s, application-code: 924ms)
+ GET /api/stats 200 in 1716ms (next.js: 869ms, application-code: 847ms)
+ GET /api/search?q=BCNF&limit=2 200 in 1161ms (next.js: 836ms, application-code: 325ms)
+ GET /api/frequency?subject=CS-502&top_n=5 200 in 760ms (next.js: 545ms, application-code: 215ms)
+ GET /search 200 in 1874ms (next.js: 654ms, application-code: 1220ms)
+ GET /search 200 in 68ms (next.js: 16ms, application-code: 51ms)
+ GET /search 200 in 118ms (next.js: 18ms, application-code: 100ms)
+ GET /api/search?limit=50 200 in 1022ms (next.js: 15ms, application-code: 1006ms)
+ GET /api/subjects 200 in 1434ms (next.js: 916ms, application-code: 519ms)
+ GET /search?q=dea 200 in 60ms (next.js: 8ms, application-code: 52ms)
+ GET /api/search?q=dea&limit=50 200 in 273ms (next.js: 15ms, application-code: 259ms)
+ GET /search?q=dead 200 in 123ms (next.js: 26ms, application-code: 97ms)
+ GET /api/search?q=dead&limit=50 200 in 250ms (next.js: 5ms, application-code: 245ms)
+ GET /search?q=deadl 200 in 74ms (next.js: 12ms, application-code: 63ms)
+ GET /api/search?q=deadl&limit=50 200 in 244ms (next.js: 9ms, application-code: 235ms)
+ GET /search?q=deadloc 200 in 108ms (next.js: 19ms, application-code: 90ms)
+ GET /api/search?q=deadloc&limit=50 200 in 273ms (next.js: 22ms, application-code: 251ms)
+ GET /search?q=deadlock 200 in 102ms (next.js: 25ms, application-code: 77ms)
+ GET /api/search?q=deadlock&limit=50 200 in 284ms (next.js: 15ms, application-code: 269ms)
+ GET / 200 in 306ms (next.js: 149ms, application-code: 156ms)
+[browser] THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+ GET /api/subjects 200 in 1185ms (next.js: 69ms, application-code: 1116ms)
+ GET /api/stats 200 in 1326ms (next.js: 93ms, application-code: 1233ms)
+ GET /api/stats 200 in 1223ms (next.js: 146ms, application-code: 1077ms)
+ GET /api/stats 200 in 1296ms (next.js: 95ms, application-code: 1201ms)
+ GET /api/branches 200 in 1378ms (next.js: 618ms, application-code: 759ms)
+ GET /api/stats 200 in 1401ms (next.js: 41ms, application-code: 1360ms)
+ GET /api/branches 200 in 808ms (next.js: 14ms, application-code: 794ms)
+ GET /api/subjects 200 in 877ms (next.js: 25ms, application-code: 852ms)
